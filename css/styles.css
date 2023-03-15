@@ -1,0 +1,126 @@
+body {
+    font-family: 'Nunito Sans', 'Arial', sans-serif;
+}
+
+h1.h1Light {
+    font-size: xx-large;
+    text-align: center;
+    font-weight: 800;
+}
+
+p.pLight {
+    text-align: center;
+    font-weight: bold;
+}
+
+p.pLight-sm {
+    font-weight: lighter;
+    font-size: small;
+}
+
+div p.pDark {
+    color: #E9ECEF;
+}
+
+p.pLight-lg {
+    font-size: large;
+}
+
+h1.h1Dark {
+    font-size: x-large;
+    text-align: center;
+    font-weight: 800;
+    color: #E9ECEF;
+}
+
+.custBtn {
+    border: none;
+    padding: 5px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.custBtn-gray {
+    font-size: small;
+    background-color: #E9ECEF;
+    color: black;
+    border: 1px solid #E9ECEF;
+}
+
+.custBtn-gray:hover {
+    background-color: #212529;
+    color: #E9ECEF;
+    border: 1px solid #E9ECEF;
+}
+
+.custText {
+    font-size: small;
+    color: #E9ECEF;
+}
+
+div a.custText-clickable {
+    transition-duration: 0.2s;
+}
+
+div a.custText-clickable:hover {
+    color: #e9ecef9f;
+}
+
+input.custInput {
+    font-size: small;
+    border-radius: 20px;
+}
+
+.card-body {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.dropdown-toggle::after {
+    content: none;
+}
+
+.navbar-nav .dropdown-menu {
+    position: absolute;
+}
+
+.dropdown-divider {
+    background-color: #E9ECEF;
+}
+
+ul.dropdown-menu-dark {
+    --bs-dropdown-link-active-bg: #255280;
+}
+
+/* style for panel after navbar (viewport height - navbar height) */
+div.height-full {
+    margin-top: 56px;
+    height: calc(100vh - 56px);
+}
+
+div.sidebar-full {
+    margin-top: 0px;
+    height: 100vh;
+}
+
+div.offcanvas.offcanvas-start {
+    width: 250px;
+}
+
+.text-light {
+    color: #E9ECEF;
+}
+
+/* end of prev version */
+
+@media (min-width: 768px) {
+    div.sidebar-full {
+        margin-top: 56px;
+        height: calc(100vh - 56px);
+    }
+}
+
